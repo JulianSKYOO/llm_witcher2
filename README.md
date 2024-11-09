@@ -26,8 +26,9 @@ You can generate a chat with an NPC in Witcher 2 with this LLM-powered Chatbot.
 ![스크린샷 2024-11-09 173041](https://github.com/user-attachments/assets/f185c8ef-0c0f-480e-8940-bfa8503c8fc0)
 
 **References**
-https://github.com/huggingface/trl
-https://github.com/artidoro/qlora
-facebook/roberta-hate-speech-dynabench-r4-target
 
-some of detailed code was supported by Claude.
+https://github.com/huggingface/trl
+
+https://github.com/artidoro/qlora
+
+facebook/roberta-hate-speech-dynabench-r4-target
