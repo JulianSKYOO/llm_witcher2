@@ -7,10 +7,11 @@ You can generate a chat with an NPC in Witcher 2 with this LLM-powered Chatbot.
 ### How to run?
 
 1. Download the `requirements.txt` and `main.py` files.
-2. Open your VScode.
-3. This code is based on Python version 3.10, to create an environtment `conda create -p venv python==3.10 -y`.
-4. you need to activate your own environment, `conda activate venv/`.
-5. at your .env file, type your LANGCHAIN_API_KEY, LANGCHAIN_PROJECT, HF_API_KEY, and OPEN_AI_KEY.
+2. There are several cloning needed `git clone http://github.com/huggingface/trl.git` and `git clone https://github.com/artidoro/qlora.git`
+3. Open your VScode.
+4. This code is based on Python version 3.10, to create an environtment `conda create -p venv python==3.10 -y`.
+5. you need to activate your own environment, `conda activate venv/`.
+6. at your .env file, type your LANGCHAIN_API_KEY, LANGCHAIN_PROJECT, HF_API_KEY, and OPEN_AI_KEY.
 * If you woud like to use any free version of the model, you have to modify the file and add the corresponding api key.
 5. `pip install -r requirements.txt` to download all the libraries *Note that there are many libraries do not correspond to the current task.
 6. Change your directory to the corresponding `main.py` file.
